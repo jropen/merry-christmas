@@ -120,7 +120,7 @@ $('document').ready(function(){
 		loopSeven();
 
 		$(this).fadeOut('fast').delay(3000).promise().done(function(){
-			$('#cake_fadein').fadeIn('fast');
+			$('#wish_message').fadeIn('fast');
 		});
 	});
 
@@ -178,7 +178,7 @@ $('document').ready(function(){
 			$("p:nth-child("+i+")").fadeIn('slow').delay(1000);
 			if(i==50){
 				$("p:nth-child(49)").fadeOut('slow').promise().done(function () {
-					$('.cake').fadeIn('fast');
+					// $('.cake').fadeIn('fast');
 				});
 				
 			}
