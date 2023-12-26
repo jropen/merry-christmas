@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Merry Christmas</title>
+  <link rel="stylesheet" href="assets/normalize.min.css">
+  <link rel="stylesheet" href="assets/style.css">
+
+</head>
+
+<body>
+  <!-- partial:index.partial.html -->
+  <svg>
+    <text class="Merry" x="150" y="50">Merry</text>
+    <text class="Christmas" x="150" y="120">Christmas</text>
+  </svg>
+  <div class="Snow">
+    <div class="Snow-flake"></div>
+    <div class="Snow-flake"></div>
+    <div class="Snow-flake"></div>
+    <div class="Snow-flake"></div>
+    <div class="Snow-flake"></div>
+    <div class="Snow-flake"></div>
+    <div class="Snow-flake"></div>
+    <div class="Snow-flake"></div>
+    <div class="Snow-flake"></div>
+    <div class="Snow-flake"></div>
+    <div class="Snow-flake"></div>
+    <div class="Snow-flake"></div>
+    <div class="Snow-flake"></div>
+    <div class="Snow-flake"></div>
+    <div class="Snow-flake"></div>
+    <div class="Snow-flake"></div>
+    <div class="Snow-flake"></div>
+    <div class="Snow-flake"></div>
+    <div class="Snow-flake"></div>
+    <div class="Snow-flake"></div>
+    <div class="Snow-flake"></div>
+    <div class="Snow-flake"></div>
+    <div class="Snow-flake"></div>
+    <div class="Snow-flake"></div>
+    <div class="Snow-flake"></div>
+    <div class="Snow-flake"></div>
+    <div class="Snow-flake"></div>
+    <div class="Snow-flake"></div>
+    <div class="Snow-flake"></div>
+    <div class="Snow-flake"></div>
+    <div class="Snow-flake"></div>
+    <div class="Snow-flake"></div>
+    <div class="Snow-flake"></div>
+    <div class="Snow-flake"></div>
+    <div class="Snow-flake"></div>
+    <div class="Snow-flake"></div>
+    <div class="Snow-flake"></div>
+    <div class="Snow-flake"></div>
+    <div class="Snow-flake"></div>
+    <div class="Snow-flake"></div>
+    <div class="Snow-flake"></div>
+    <div class="Snow-flake"></div>
+    <div class="Snow-flake"></div>
+    <div class="Snow-flake"></div>
+    <div class="Snow-flake"></div>
+    <div class="Snow-flake"></div>
+    <div class="Snow-flake"></div>
+    <div class="Snow-flake"></div>
+    <div class="Snow-flake"></div>
+    <div class="Snow-flake"></div>
+    <div class="Snow-flake"></div>
+    <div class="Snow-flake"></div>
+    <div class="Snow-flake"></div>
+    <div class="Snow-flake"></div>
+    <div class="Snow-flake"></div>
+  </div>
+  <!-- partial -->
+  <script src='assets/jquery.min.js'></script>
+  <script >
+    $('text').each(function () {
+      const el = $(this);
+      const text = el.html().split('');
+      el.html(`<tspan>${text.join('</tspan><tspan>')}</tspan>`);
+    });
+  </script>
+
+</body>
+
+</html>
